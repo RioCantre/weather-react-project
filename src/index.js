@@ -1,17 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDom from "react-dom";
+import "./index.css";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+function App() {
+  return (
+    <div>
+      <div className="container">
+          <div id="background" >
+           
+          </div>
+      </div>
+      <footer className="bottom-text">
+        <a href="https://github.com/RioCantre" target="_blank" rel="noreferrer">Open-source</a>
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+        &nbsp;code by&nbsp;
+        <span className="name">
+          <a href="https://www.shecodes.io/students/316-rio-cantre" target="_blank" rel="noreferrer"> Rio Cantre </a> 
+        </span>
+      </footer>
+
+    </div>
+  );
+}
+
+const rootElement = document.getElementById("root");
+ReactDom.render(<App />, rootElement);
