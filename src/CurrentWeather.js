@@ -9,7 +9,7 @@ import WeatherQuote from "./WeatherQuotes";
 export default function CurrentWeather(props) {
     return (
         <div>
-            <h1 id="main-city" className=" text-capitalize"> {props.data.city} </h1>
+            <h1 className=" text-capitalize"> {props.data.city} </h1>
             <CurrentDate date={props.data.date} />
         
             <WeatherQuote code={props.data.icon}/>

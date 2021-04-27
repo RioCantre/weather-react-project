@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import CurrentWeather from "./CurrentWeather";
-// import Forecast from "./Forecast";
+import Forecast from "./Forecast";
 import "./index.css";
 
 
@@ -70,7 +70,7 @@ export default function SearchEngine(props) {
     
                   <div className="col-3 order-first">
                         <div id="days">
-                          {/* <Forecast coordinates={weatherData.coordinates}/> */}
+                          <Forecast coordinates={weatherData.coordinates}/>
                         </div>
                   </div>
               </div>
