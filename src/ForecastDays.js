@@ -25,7 +25,7 @@ export default function ForecastDays(props) {
             &nbsp;&nbsp;&nbsp;&nbsp;
             <span className="degree">
                 <span className="degree-cel"> {minTemp()}</span> |
-              <span className="degree-fah"> {maxTemp()}</span>
+                <span className="degree-fah"> {maxTemp()}</span>
             </span>
         </div>
     );

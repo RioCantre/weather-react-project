@@ -10,8 +10,7 @@ export default function CurrentWeather(props) {
     return (
         <div>
             <h1 className=" text-capitalize"> {props.data.city} </h1>
-            <CurrentDate date={props.data.date} />
-        
+            <CurrentDate date={props.data.date} />     
             <WeatherQuote code={props.data.icon}/>
             <div className="Weatherinfo mt-4">
                 <div id="float-r">
