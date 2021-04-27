@@ -1,6 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Gravitas+One&family=Montserrat:wght@600&family=Playfair+Display:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gravitas+One&family=Montserrat:wght@600&family=Playfair+Display:ital,wght@1,500&display=swap");
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
 
-.container,
 #background {
   background-image: url(/src/bg.png);
   background-repeat: no-repeat;
@@ -13,18 +19,178 @@
   max-height: 650px;
   display: block;
 }
+
+.order-last {
+  text-align: center;
+  margin: 20px 18px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #1e0b44;
+  font-size: 28px;
+  padding-top: 35px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-family: "Gravitas One", cursive;
+  text-align: center;
+}
+
+#float-r {
+  float: right;
+  width: 50%;
+  padding-top: 40px;
+}
+
+#float-l img {
+  float: left;
+  display: block;
+  padding-top: 10px;
+}
+
+.day-name {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 30px;
+  color: #68987f;
+}
+
+.current-date,
+.current-time {
+  font-size: 15px;
+  color: #371560;
+  padding-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.description {
+  font-family: "Montserrat", sans-serif;
+  color: #371560;
+  font-size: 14px;
+  font-weight: bold;
+}
+.description:first-letter {
+  text-transform: capitalize;
+}
+
+.today-temp,
+.cel-temp {
+  font-size: 33px;
+  font-family: "Gravitas One", cursive;
+  color: #1e0b44;
+  text-align: center;
+}
+.fah-temp {
+  font-size: 33px;
+  font-family: "Gravitas One", cursive;
+  color: #1e0b44;
+  text-align: center;
+  opacity: 85%;
+}
+#other-info {
+  font-size: 12px;
+  text-align: center;
+  color: #371560;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-description {
+  width: 180px;
+}
+
+.weather-quote {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: #371560;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+form {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#city-input {
+  width: 100px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+#search-input {
+  background: #68987f;
+  color: #1e0b44;
+  margin-left: 4px;
+  border-radius: 20px;
+  transition: all 200ms ease;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  width: 80px;
+  text-align: center;
+}
+#current-input {
+  background: #68987f;
+  width: 45px;
+  margin-left: 4px;
+  border-radius: 20px;
+  color: #1e0b44;
+  transition: all 200ms ease;
+}
+#search-input:hover,
+#current-input:hover {
+  color: #e7c120;
+  background: #1e0b44;
+}
+
+.order-first {
+  margin: 20px 0;
+  padding-bottom: 20px;
+}
+#days {
+  border-right: 1px #68987f solid;
+  margin-left: 20px;
+}
+
+.weekname {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #371560;
+  margin-right: 20px;
+}
+
+.degree-cel {
+  font-size: 12px;
+  color: #1e0b44;
+  font-family: "Gravitas One", cursive;
+  text-align: center;
+}
+.degree-fah {
+  font-size: 12px;
+  color: #1e0b44;
+  font-family: "Gravitas One", cursive;
+  text-align: center;
+  opacity: 85%;
+}
+
 .bottom-text {
   text-align: center;
   font-size: 10px;
   color: #68987f;
   padding-top: 10px;
-  font-family: "Montserrat", sans-serif;
 }
 .bottom-text a {
   text-decoration: none;
   transition: all 200ms ease;
   color: #371560;
-  font-family: "Montserrat", sans-serif;
 }
 .bottom-text a:hover {
   color: #e7c120;
@@ -33,4 +199,11 @@
   font-size: 10px;
   color: #1e0b44;
   font-family: "Montserrat", sans-serif;
+}
+
+.loader {
+  margin-top: 100px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #371560;
 }
