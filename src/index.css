@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Gravitas+One&family=Montserrat:wght@600&family=Playfair+Display:ital,wght@1,500&display=swap");
-.App {
-  font-family: sans-serif;
-  text-align: center;
-}
+
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -75,19 +72,14 @@ h1 {
 }
 
 .today-temp,
-.cel-temp {
-  font-size: 33px;
-  font-family: "Gravitas One", cursive;
-  color: #1e0b44;
-  text-align: center;
-}
+.cel-temp,
 .fah-temp {
   font-size: 33px;
   font-family: "Gravitas One", cursive;
   color: #1e0b44;
   text-align: center;
-  opacity: 85%;
 }
+
 #other-info {
   font-size: 12px;
   text-align: center;
@@ -167,18 +159,12 @@ form {
   margin-right: 20px;
 }
 
-.degree-cel {
-  font-size: 12px;
-  color: #1e0b44;
-  font-family: "Gravitas One", cursive;
-  text-align: center;
-}
+.degree-cel,
 .degree-fah {
   font-size: 12px;
   color: #1e0b44;
   font-family: "Gravitas One", cursive;
   text-align: center;
-  opacity: 85%;
 }
 
 .bottom-text {
