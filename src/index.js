@@ -8,7 +8,9 @@ import SearchEngine from "./SearchEngine";
 function App() {
   return (
     <div>
-       <SearchEngine defaultCity="New York" />
+
+      <SearchEngine defaultCity="New York" />
+      
     </div>
   );
 }
