@@ -75,7 +75,7 @@ export default function SearchEngine(props) {
             </div>
           </div>
           <footer className="bottom-text">
-            <a href="https://github.com/RioCantre" target="_blank" rel="noreferrer">Open-source</a>
+            <a href="https://github.com" target="_blank" rel="noreferrer">Open-source</a>
     
             &nbsp;code by&nbsp;
             <span className="name">
