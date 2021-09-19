@@ -186,3 +186,30 @@ form {
   color: #371560;
   text-align: center;
 }
+
+@media(max-width: 991px){
+  .degree-cel,
+  .degree-fah{
+    font-size: 14px;
+  }
+}
+@media (max-width:767px) {
+  .order-last {
+    margin: 10px;
+    margin-left: 0;
+  }
+  .weekname {
+    font-size: 13px;
+  }
+  .degree-cel,
+  .degree-fah{
+    font-size: 7px;
+  }
+  #days {
+    margin-left: 10px;
+  }
+  .order-first{
+    padding-bottom: 10px;
+    margin-top: 10px;
+  }
+}
